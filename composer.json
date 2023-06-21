@@ -1,5 +1,5 @@
 {
-    "name": "drupal/ckeditor_balloonpanel",
+    "name": "ubc-web-services/d10compat_ckeditor_balloonpanel",
     "type": "drupal-module",
     "description": "Adds the Balloon Panel Plugin plugin to CKEditor.",
     "keywords": [
