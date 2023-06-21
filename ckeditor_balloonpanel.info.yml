@@ -2,7 +2,6 @@ name: CKEditor Balloon Panel
 type: module
 description: "Adds the Balloon Panel plugin to CKEditor."
 package: CKEditor
-core: 8.x
-core_version_requirement: ^8 || ^9
+core_version_requirement: ^9.3 || ^10
 dependencies:
   - drupal:ckeditor

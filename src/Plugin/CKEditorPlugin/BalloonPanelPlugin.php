@@ -77,7 +77,7 @@ class BalloonPanelPlugin extends CKEditorPluginBase {
     // profile, installation profiles may want to place libraries into a
     // 'libraries' directory.
     if ($profile = \Drupal::installProfile()) {
-      $profile_path = drupal_get_path('profile', $profile);
+      $profile_path = \Drupal::service('extension.list.profile')->getPath($profile);
       $searchdir[] = "$profile_path/libraries";
       $searchdir[] = "$profile_path/libraries/ckeditor/plugins";
     };
